@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "j3oJn5wV1E1EUF1LvZKO3aUBlvCPRzQvoYmZ0Dw3n9V6u+5sEnUGMvmjBVLcJHZhdk9xOjh5kNCv5Qqx9xlURg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\REI\\source\\repos\\Kyoshin_Rei_WPF\\Kyoshin_Rei_WPF\\Kyoshin_Rei_WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\REI\\.nuget\\packages\\kyoshinmonitorlib\\0.4.5\\kyoshinmonitorlib.0.4.5.nupkg.sha512",
+    "C:\\Users\\REI\\.nuget\\packages\\kyoshinmonitorlib.images\\0.4.3\\kyoshinmonitorlib.images.0.4.3.nupkg.sha512",
+    "C:\\Users\\REI\\.nuget\\packages\\kyoshinmonitorlib.timers\\0.4.2.1\\kyoshinmonitorlib.timers.0.4.2.1.nupkg.sha512",
+    "C:\\Users\\REI\\.nuget\\packages\\messagepack\\2.3.85\\messagepack.2.3.85.nupkg.sha512",
+    "C:\\Users\\REI\\.nuget\\packages\\messagepack.annotations\\2.3.85\\messagepack.annotations.2.3.85.nupkg.sha512",
+    "C:\\Users\\REI\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\REI\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\REI\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\REI\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\REI\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\REI\\.nuget\\packages\\system.text.json\\6.0.3\\system.text.json.6.0.3.nupkg.sha512",
+    "C:\\Users\\REI\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.17763.29\\microsoft.windows.sdk.net.ref.10.0.17763.29.nupkg.sha512"
+  ],
+  "logs": []
+}

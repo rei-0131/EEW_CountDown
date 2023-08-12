@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+    <StartupObject></StartupObject>
+    <ApplicationIcon>Resources\eew_count.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\s_0.png" />
+    <None Remove="Resources\s_1.png" />
+    <None Remove="Resources\s_2.png" />
+    <None Remove="Resources\s_3.png" />
+    <None Remove="Resources\s_4.png" />
+    <None Remove="Resources\s_5_1.png" />
+    <None Remove="Resources\s_5_2.png" />
+    <None Remove="Resources\s_6_1.png" />
+    <None Remove="Resources\s_6_2.png" />
+    <None Remove="Resources\s_7.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\eew_count.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="KyoshinMonitorLib" Version="0.4.5" />
+    <PackageReference Include="KyoshinMonitorLib.Images" Version="0.4.3" />
+    <PackageReference Include="KyoshinMonitorLib.Timers" Version="0.4.2.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\s_0.png" />
+    <Resource Include="Resources\s_1.png" />
+    <Resource Include="Resources\s_2.png" />
+    <Resource Include="Resources\s_3.png" />
+    <Resource Include="Resources\s_4.png" />
+    <Resource Include="Resources\s_5_1.png" />
+    <Resource Include="Resources\s_5_2.png" />
+    <Resource Include="Resources\s_6_1.png" />
+    <Resource Include="Resources\s_6_2.png" />
+    <Resource Include="Resources\s_7.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="Properties\Resources.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+
+</Project>
